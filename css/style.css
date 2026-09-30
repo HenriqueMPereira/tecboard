@@ -1,0 +1,129 @@
+/* Fonts */
+@font-face{
+    font-family: 'Poppins-Regular';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style:normal
+}
+
+@font-face{
+    font-family: 'Poppins-SemiBold';
+    src: url('../fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style:normal
+}
+
+@font-face{
+    font-family: 'Unbounded';
+    src: url('../fonts/Unbounded/static/Unbounded-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+
+body{
+    background-color: #0E1014;
+    color: #FFFFFF;
+}
+
+/* Header */
+header img{
+    margin: 75px 0 60px 360px;
+}
+
+/* Main */
+h1{
+    font-family: 'Unbounded', sans-serif;
+    font-size: 64px;
+    text-align: center;
+    width: 792px;
+    margin: 0 auto 24px auto;
+}
+
+h1 span{
+    color: #9747FF;
+    display: block;
+}
+
+p{
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    width: 792px;
+    margin: 0 auto 40px auto;
+}
+
+a{
+    display: block;
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    width: 340px;
+    height: 66px;
+    background-color: #9747FF;
+    margin: 0 auto 40px auto;
+    text-decoration: none;
+    line-height: 66px;
+    border-radius: 36px;
+}
+
+a:hover{
+    background-color: #8233E8;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+
+    header img{
+        margin: 65px 0 72px 60px;
+    }
+
+    h1{
+        width: 648px;
+    }
+
+    p{
+        width: 648px;
+        margin: 0 auto 40px auto;
+    }
+}
+
+@media (max-width: 475px) {
+
+    header img{
+        margin: 32px 0 60px 16px;
+    }
+
+    h1{
+        width: 341px;
+        font-size: 40px;
+        margin: 0 auto 24px auto;
+    }
+
+    p{
+        width: 341px;
+        font-size: 20px;
+        margin: 0 auto 40px auto;
+    }
+    
+    a{
+        width: 251px;
+        font-size: 20px;
+    }
+
+    main img{
+        width: 341px;
+        height: 230px;
+    }
+}
